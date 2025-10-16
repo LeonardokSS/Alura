@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Adivinhação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4a90e2, #9013fe);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .container {
+      background: rgba(255,255,255,0.1);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      width: 300px;
+    }
+    input {
+      width: 60px;
+      padding: 8px;
+      font-size: 18px;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #ffcc00;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background-color: #ffd633;
+    }
+    #resultado {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🎯 Adivinhe o número!</h2>
+    <p>Escolha um número de 1 a 10:</p>
+    <input type="number" id="palpite" min="1" max="10">
+    <br>
+    <button onclick="verificar()">Adivinhar</button>
+    <p id="resultado"></p>
+  </div>
+
+  <script>
+   const numeroSecreto = parseInt(Math.random() *10 + 1)
+   
+ function verificar(){
+ const palpite = Number(document.getElementById('palpite').value)
+ let paragrafo = document.getElementById('resultado')
+   if(palpite === numeroSecreto){
+    paragrafo.innerHTML = 'Voce acertou kkkkkkkkkkkkkkkkkkkkkk'
+   }else{
+    paragrafo.innerHTML = 'VOCE errou'
+   }}
+  </script>
+</body>
+</html>

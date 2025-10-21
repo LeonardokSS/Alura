@@ -1,4 +1,4 @@
-let numeroSecreto = 7
+let numeroSecreto = 2
 
 
 let tentativa = 1;
@@ -17,7 +17,7 @@ function verificarChute() {
         let palavraTentativa = tentativa > 1? 'tentativas':'tentativa';
         exibirTextoNaTela('h1','Você acertou o numero!');
         exibirTextoNaTela('p',`Acertou com ${tentativa} ${palavraTentativa}`);
-        document.getElementById('reiniciar').removeAttribute('disable')
+        document.getElementById('reiniciar').removeAttribute('disabled')
     }
    
     else{
@@ -31,19 +31,24 @@ function gerarNumeroAleatorio() {
     return parseInt(Math.random() * 10 + 1);
 }
 
-
+function limparCampo(){
+    campo = document.querySelector('input').value;
+    campo = '';
+}
 //querySelector seleciona um elemento pelo seu id, nome classe
 // id = ('#id') , nome = ('nome'), classe = ('.classe')
 
-function resetar(){
-    let campo = document.querySelector('input');
-    campo = '';
 
+function mostrarMsg(){
+    exibirTextoNaTela('h1','Jogo reiniciado, Adivinhe novamente');
+    exibirTextoNaTela('p1','Numero de 1 a 10');
 }
 
-
-
-
-
-
+function reiniciarJogo() {
+    numeroSecreto = gerarNumeroAleatorio();
+    limparCampo();
+    mostrarMsg();
+    tentativas = 1;
+    document.getElementById('reiniciar').setAttribute('disable',true)
+}
 

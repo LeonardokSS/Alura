@@ -1,0 +1,60 @@
+Crie uma conta no GitHub
+
+Feito
+
+
+Crie um repositório para um projeto pessoal.
+
+Feito
+
+
+Faça a instalação do Git
+
+Feito
+
+
+Crie um repositório localmente para o seu projeto pessoal
+
+git init
+
+
+Adicione alguns arquivos no seu repositório local
+
+git add .
+ou 
+git add "Nome_Arquivo"
+
+
+Faça o commit das alterações
+
+git commit -q -m "Nome_commit"
+
+
+Configure a identidade do autor do commit.
+
+git config --global user.email "your@example.com"
+git config --global user.name "Your Name"
+
+
+Crie a branch Main
+
+
+git branch -M Main
+
+
+Realize a conexão do seu repositório local com o remoto
+
+
+git remove add origin "URL"
+
+
+Envie as alterações no repositório local para o remoto
+
+
+git push
+
+
+Utilize o comando git status
+
+git status
+

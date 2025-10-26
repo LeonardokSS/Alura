@@ -1,0 +1,17 @@
+A chaveSSH é importante para garantirmos a segurança dos nossos repositórios 
+
+
+1. Para gerar essa chave temos que colocar esse comando no terminal
+
+     ssh-keygen -t ed25519 -C "seu_email@example.com"
+
+
+2. Após gerada a chave, você deve escolher onde elas seram criadas(arquivos)
+  2 arquivos seram adicionados, um com a chave privada e a pública, copie o conteudo da chave pública(tudo) e cole dentro da caixa na parte de criar uma nova chaveSSH do github
+
+3. Logo após o terminal vai mostrar Enter passphrase (empty for no passphrase):
+ Ele basicamente pede para você colocar uma senha, se não quiser aperte Enter
+  Enter same passphrase again:(Confirmar que você não quer uma senha para o seu repositório)
+  Se você quiser colocar uma senha, toda vez que o comando git push do computador que você gerou a chave de segurança, ele ira pedir essa senha.
+
+4.

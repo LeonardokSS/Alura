@@ -1,0 +1,17 @@
+1 - Adicionar um repositório remoto:
+ git remote add "apelido" "URL"
+
+
+
+2 - Listar os repositórios remotos:
+ git remote -v
+  O terminal ira exibir dois repositórios(porque um sera para guardar as informações e outro para mandar elas para o repositório dentro da nuvem)
+
+3 - Remover um repositório remoto: (desvincular do repositório do projeto local)
+ git remote remove origin
+
+4 - Alterar a URL de um repositório remoto:
+ git remote set-url origin "URL"
+
+5 - Alterar o apelido de um repositório remoto:
+ git remote rename "apelido_original" "apelido_modificado"

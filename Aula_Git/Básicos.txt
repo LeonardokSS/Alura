@@ -14,6 +14,8 @@ git remote add origin https://github.com/usuario/nome-repo.git
 // cria uma partição dentro do repositório e renomeia ele para "main"(isolamento dentro do código)
 git branch -M main
 
+
+
 // Manda todas as alterações para a partição "main"
 // -u vinculo entre a branch local e remove_shopping_cart
 // origin nome do repositório remove_shopping_cart

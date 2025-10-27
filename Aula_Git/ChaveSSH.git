@@ -14,4 +14,3 @@ A chaveSSH é importante para garantirmos a segurança dos nossos repositórios
   Enter same passphrase again:(Confirmar que você não quer uma senha para o seu repositório)
   Se você quiser colocar uma senha, toda vez que o comando git push do computador que você gerou a chave de segurança, ele ira pedir essa senha.
 
-4.

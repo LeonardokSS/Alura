@@ -1,0 +1,16 @@
+Se duas pessoas trabalharem no mesmo repositório e fizerem git push ao mesmo tempo, o primeiro push será aceito normalmente, mas o segundo receberá um erro. Para que isso não aconteça, a ultima pessoa que tera o trabalho de salvar o código, tem que executar o git pull antes de dar o git push, para que ele pegue as alterações da outra pessoa para salvar, para isso basta:
+(colocar o nome do repositório)
+git pull Alura main
+
+
+
+
+Para adicionar colaboradores em um commit temos que:
+git commit -m "nome
+
+
+Co-authored-by: Leo:<leo@gmail.com>
+Co-authored-by: Pedro:<Pedro@gmail.com>
+"
+
+

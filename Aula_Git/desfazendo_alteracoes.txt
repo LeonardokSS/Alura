@@ -1,4 +1,0 @@
-Para fazermos alterações em commits ja feitos, ou simplesmente voltar no passado, para isso:
-
-1. Verificar os commits 
-    git-log

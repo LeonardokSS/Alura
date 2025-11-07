@@ -1,6 +1,0 @@
-Quando estamos trabalhando em equipe, conflitos podem acontecer entre um commit e outro, quando isso acontece, podemos resolver eles por meio da IDE do git dentro do vscode
-
-Exemplo: Pedro alterou o arquivo Main.js e depois realizou o commit e deu o git push para o repositório, enquanto isso, João no seu pc alterou o Main.js e deu o commit, porém percebeu que ele precisava das alterações do Pedro, então ele deu o git push, criando um conflito de variaveis dentro do código.
-
-
-Para resolver isso, dentro da ide, Pedro pode alterar o código manualmente e decidir juntamente com Pedro, quais alterações devem ser mantidas para a solução do problema (Merge entre commits)

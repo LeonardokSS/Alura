@@ -1,13 +1,3 @@
-# Comandos Linux — Resumo Organizado
-
-## ⚙️ Privilégios de Administrador
-- **sudo <comando>** → Executa um comando com privilégios de administrador.
-- **sudo -i** → Inicia uma sessão como administrador (root). *Use com cuidado!*
-  - **exit** → Sai da sessão de administrador.
-- **sudo su** → Abre um shell como root, mantendo o ambiente do usuário atual.
-
----
-
 ## 📁 Diretórios e Navegação
 ### Prompt do terminal
 ```
@@ -29,12 +19,7 @@ leo@LEO:~$
 - A partir da pasta **home**, não é possível acessar todos os arquivos do sistema.
 - Use **cd /** para ir ao diretório raiz.
 
----
-
-## 📄 Visualização de Arquivos
-- **cat <arquivo>** → Exibe conteúdo de arquivos ou concatena arquivos.
-
----
+--
 
 ## 🗂️ Diretórios do Sistema (dentro da raiz /)
 ### /bin
@@ -90,4 +75,3 @@ Programas, bibliotecas e arquivos instalados para usuários.
 
 ### /var
 Arquivos variáveis como logs e filas de email.
-

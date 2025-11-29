@@ -29,6 +29,7 @@ Aqui organizo meus projetos, anotações e exercícios das formações que estou
 ✔️ Projetos de HTML, CSS e JavaScript  
 ✔️ Exercícios e testes de Git / GitHub  
 ✔️ Estudos sobre Linux (Ubuntu)  
+✔️ Estudos sobre Linux (Kali Linux)  
 ✔️ Comandos e automações DevOps  
 ✔️ Pequenos arquivos e anotações por curso
 

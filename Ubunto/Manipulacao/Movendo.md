@@ -13,20 +13,6 @@
 ## 📄 Visualização de Arquivos
 - **cat <arquivo>** → Exibe conteúdo de arquivos ou concatena arquivos.
 
----
-
-
-
-## Criação de Arquivos  
-- Use a pasta **home** utilizando o comando **cd**
-- Crie o diretório utilizando o touch <nome_arquivo >
-
-## Editando arquivos de texto
-- nano nome_arquivo → Abre o editor de texto Nano para editar um arquivo.
-
-## Copiando arquivos (duplicando)
-- cp <nome_arquivo> <nome_arquivocopiado>
-- Precisa alterar o nome para que ele copie
 
 ## Movendo Arquivos dentro de Subdiretórios
 - Use o comando dentro do diretório <mv> <caminho_arquivo> <caminho_destino>

@@ -1,7 +1,11 @@
 ## Buscar processos pelo ps
 - ps -C (nome_processo)
 
+##
+
 
 ## Buscar por uso de ram
-Este comando basicamente procura os 10 processos ordenados por uso de memoria
- - ps aux --sort=-%mem | head -n 11
+
+  ### **ps aux --sort=-%mem | head -n 11**
+
+ - Este comando basicamente procura os 10 processos ordenados por uso de memoria
